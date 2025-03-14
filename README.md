@@ -10,9 +10,13 @@ With the increasing number of vehicles on the road, road safety has become a maj
 **Vehicle Numbers Data**, **Accident Data** and **Death and Injury Data from Accidents**: will be provided from the website of TÜİK. The links of the webpages which has the excel data the project will use are as following:
 
 Karayolu Trafik Kaza İstatistikleri, 2023 : https://data.tuik.gov.tr/Bulten/Index?p=Karayolu-Trafik-Kaza-Istatistikleri-2023-53479
+
 Karayolu Trafik Kaza İstatistikleri, 2022 : https://data.tuik.gov.tr/Bulten/Index?p=Karayolu-Trafik-Kaza-Istatistikleri-2022-49513
+
 Karayolu Trafik Kaza İstatistikleri, 2021 : https://data.tuik.gov.tr/Bulten/Index?p=Karayolu-Trafik-Kaza-Istatistikleri-2021-45658#:~:text=T%C3%9C%C4%B0K%20Kurumsal&text=%C3%9Clkemiz%20karayolu%20a%C4%9F%C4%B1nda%202021%20y%C4%B1l%C4%B1nda,ise%20%C3%B6l%C3%BCml%C3%BC%20yaralanmal%C4%B1%20trafik%20kazas%C4%B1d%C4%B1r.
+
 Karayolu Trafik Kaza İstatistikleri, 2020 : https://data.tuik.gov.tr/bulten/index?p=karayolu-trafik-kaza-istatistikleri-2020-37436#:~:text=T%C3%9C%C4%B0K%20Kurumsal&text=%C3%9Clkemiz%20karayolu%20a%C4%9F%C4%B1nda%202020%20y%C4%B1l%C4%B1nda,ise%20%C3%B6l%C3%BCml%C3%BC%20yaralanmal%C4%B1%20trafik%20kazas%C4%B1d%C4%B1r.
+
 Karayolu Trafik Kaza İstatistikleri, 2019 : https://data.tuik.gov.tr/Bulten/Index?p=Karayolu-Trafik-Kaza-Istatistikleri-2019-33628#:~:text=T%C3%9C%C4%B0K%20Kurumsal&text=%C3%9Clkemiz%20karayolu%20a%C4%9F%C4%B1nda%202019%20y%C4%B1l%C4%B1nda,ise%20%C3%B6l%C3%BCml%C3%BC%20yaralanmal%C4%B1%20trafik%20kazas%C4%B1d%C4%B1r.
 
 
