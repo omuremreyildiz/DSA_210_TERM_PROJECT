@@ -1,10 +1,12 @@
 # Car Accident Risk Analysis in Turkey (2019-2023)
 
 ## Project Overview
-This project aims to analyze car accident data across different cities in Turkey for the years 2019 to 2023. The goal is to evaluate the risk of being involved in a traffic accident, including the likelihood of injury or death, for each city in Turkey. By visualizing these risks on a map, we will identify the most dangerous and the safest cities in terms of traffic accidents. The project will also calculate probabilities related to the risk of accidents and their potential outcomes (injuries or fatalities) in each city.
+
+This project analyzes car accident data in Turkey from 2019 to 2023 with a focus on **vehicle type**. The goal is to evaluate how the type of vehicle impacts the likelihood of injury or death in traffic accidents. Through extensive exploratory data analysis (EDA), statistical testing, and visualization, the project seeks to uncover trends and differences in accident outcomes between vehicle categories such as cars, trucks, motorcycles, and more.
 
 ## Motivation
-With the increasing number of vehicles on the road, road safety has become a major concern in many countries, including Turkey. Understanding the patterns of accidents and the risk associated with each city will help policymakers, insurance companies, and citizens make informed decisions regarding road safety. This project aims to provide a data-driven analysis to highlight which cities have the highest and lowest risks of traffic-related accidents.
+
+Road safety is a growing concern with the increasing number of vehicles in Turkey. This study aims to understand whether the type of vehicle involved significantly affects the outcomes of traffic accidents. Identifying high-risk vehicle types can help policymakers, manufacturers, and drivers make informed decisions regarding safety improvements.
 
 ## Data Collection Plan
 **Vehicle Numbers Data**, **Accident Data** and **Death and Injury Data from Accidents**: will be provided from the website of TÜİK. The links of the webpages which has the excel data the project will use are as following:
@@ -21,25 +23,44 @@ Karayolu Trafik Kaza İstatistikleri, 2019 : https://data.tuik.gov.tr/Bulten/Ind
 
 
 ## Data Analysis Plan
-- **Data Cleaning**: I will begin by cleaning the data to handle missing or incorrect values. This will ensure that the dataset is ready for analysis.
-- **Exploratory Data Analysis (EDA)**: The next step will be conducting EDA to understand the distribution of accidents, the relationship between the number of vehicles and accidents, and the frequency of injury/fatality.
-- **Risk Calculation**:
-  - Calculate the **probability of getting into a car accident** in each city by dividing the number of accidents by the number of vehicles in each city.
-  - Calculate the **probability of injury or death** by dividing the number of accidents resulting in injury or death by the total number of accidents.
-- **Mapping & Visualization**: Using Python libraries (like Folium and Plotly), I will create a color-coded map where each city will be highlighted based on the level of traffic risk, with probabilities displayed when hovering over each city.
-  
+
+- **Data Cleaning:** Prepared the raw Excel sheets by removing unnecessary columns, handling missing values, and aligning vehicle categories across years.
+- **Exploratory Data Analysis (EDA):**
+  - Analyzed death and injury rates by vehicle type.
+  - Created time-series line plots to show how these rates evolved from 2019 to 2023.
+  - Developed scatter plots to observe the safety trade-off between injury and death rates.
+- **Statistical Testing:**
+  - Conducted ANOVA test
+  - ANOVA is appropriate for comparing means across multiple groups (vehicle types)
+
+## Key Hypothesis
+
+**"Vehicle type does not change death and injury rate."**
+
+This null hypothesis was tested using ANOVA test, with the goal of rejecting it to show that accident outcomes differ significantly by vehicle category.
+
+## Visualizations
+
+- **Line plots** showing death and injury percentages per year per vehicle type.
+- **Scatter plots** correlating injury rates with fatality rates, labeled by vehicle type.
+
 ## Expected Findings
-- The project will provide a detailed comparison of traffic risks across different cities in Turkey.
-- The map will help visualize which cities have the highest risk of traffic accidents, injury, and fatalities.
-- The calculated probabilities will provide a quantitative understanding of the likelihood of getting into an accident and the chances of an accident resulting in injury or death in each city.
+
+- Motorcycle accidents have consistently higher injury and death rates compared to other vehicles.
+- Heavier vehicles (e.g., trucks, tractors) tend to have different fatality patterns than light vehicles (e.g., cars, minibuses).
+- Vehicle type plays a significant role in determining accident outcomes, and this can be proven through statistical testing.
 
 ## Limitations
-- **Data Quality**: The analysis depends on the availability and accuracy of the data. Any missing or incomplete data could affect the reliability of the findings.
-- **Temporal Factors**: While the data covers five years, it may not account for yearly fluctuations in traffic patterns, road conditions, or policy changes that could impact accident rates.
-- **Geographic Granularity**: The analysis is limited to the city level; however, further analysis could explore smaller geographic areas such as neighborhoods or specific intersections.
-  
-### Future Work
-- Investigate correlations with weather, road conditions, and other factors that could influence accident rates.
-- Explore the use of machine learning models to predict accident hotspots or factors contributing to accidents based on more complex datasets.
 
-__NOTE:__ This document is supported by Chat-GPT during planning.
+- **Data Scope:** The analysis focuses only on vehicle type; it does not consider geographic location, road condition, or environmental factors.
+- **Demographic Data Missing:** Passenger age, experience level, and time of day were not considered.
+
+## Future Work
+
+- Expand analysis to consider additional variables like weather, time, and road type.
+- Incorporate machine learning models to classify high-risk vehicles or predict accident outcomes.
+- Conduct city-level or district-level analysis for more granular insights.
+
+---
+
+**Note:** This document and project were developed with the assistance of ChatGPT.
