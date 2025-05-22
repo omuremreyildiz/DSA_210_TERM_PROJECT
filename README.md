@@ -21,7 +21,7 @@ Karayolu Trafik Kaza İstatistikleri, 2020 : https://data.tuik.gov.tr/bulten/ind
 
 Karayolu Trafik Kaza İstatistikleri, 2019 : https://data.tuik.gov.tr/Bulten/Index?p=Karayolu-Trafik-Kaza-Istatistikleri-2019-33628#:~:text=T%C3%9C%C4%B0K%20Kurumsal&text=%C3%9Clkemiz%20karayolu%20a%C4%9F%C4%B1nda%202019%20y%C4%B1l%C4%B1nda,ise%20%C3%B6l%C3%BCml%C3%BC%20yaralanmal%C4%B1%20trafik%20kazas%C4%B1d%C4%B1r.
 
-**NOTE:** Provider of those data files(TÜİK) started sharing "accident count-number of deaths and injuries-vehicle tyPe" data since 2019. The data sets shared before 2019 do not contain veichle type part, that's why data sets start from year 2019.
+**NOTE:** Provider of these data files(TÜİK) started sharing "accident count-number of deaths and injuries-vehicle type" data since 2019. The data sets shared before 2019 do not contain veichle type section, that's why data sets start from year 2019.
 
 ## Data Analysis Plan
 
